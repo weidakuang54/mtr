@@ -42,3 +42,9 @@ Please note:
 - The superbwarfare jar (if needed) can be included in `libs/` or downloaded similarly.
 
 **Do not commit large mod files to this repository. Always use official downloads for dependencies over 25MB.**
+
+# For Codex/Copilot/AI:
+The MTR dependency is split into three parts in the /mod/ folder.
+Before building, run:
+7z x mod/MTR-forge-4.0.0-prerelease.1+1.20.1.7z.001
+This will produce MTR-forge-4.0.0-prerelease.1+1.20.1.jar, which must be used as the dependency.
