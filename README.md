@@ -26,3 +26,8 @@ Ensuring full compatibility between these mods is critical for gameplay.
 
 **Please automatically initialize a Forge 1.20.1 project, add all required dependencies, and complete the build script and example main class.  
 Prefer Mixin or event hooks for implementation.**
+
+## Dependencies
+Please note:
+- The required mod jars (`MTR-forge-4.0.0-prerelease.1+1.20.1.jar` and `superbwarfare-1.20.1-0.8.4-57df9bc06.jar`) are located in the `libs/` folder of this repository.
+- Please add these to the `build.gradle` dependencies as needed.
