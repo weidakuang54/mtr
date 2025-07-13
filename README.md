@@ -31,3 +31,14 @@ Prefer Mixin or event hooks for implementation.**
 Please note:
 - The required mod jars (`MTR-forge-4.0.0-prerelease.1+1.20.1.jar` and `superbwarfare-1.20.1-0.8.4-57df9bc06.jar`) are located in the `libs/` folder of this repository.
 - Please add these to the `build.gradle` dependencies as needed.
+
+## Dependencies
+
+- The required MTR jar (`MTR-forge-4.0.0-prerelease.1+1.20.1.jar`) is **NOT included** in this repository due to its large file size (75MB+).
+- Please download MTR from the official source:
+  [MTR - Minecraft Transit Railway on CurseForge](https://www.curseforge.com/minecraft/mc-mods/minecraft-transit-railway)
+- After downloading, place the jar in the `libs/` folder for local building.
+
+- The superbwarfare jar (if needed) can be included in `libs/` or downloaded similarly.
+
+**Do not commit large mod files to this repository. Always use official downloads for dependencies over 25MB.**
